@@ -12,4 +12,11 @@ Wandering algorithm
 ===================
 JavaScript
 ----------
-TODO
+.. raw:: html
+
+   <div align="center">
+    <a href="https://codepen.io/raul23/full/LYJzygm" target="_blank">
+      <img src="./images/wandering_fullscreen.png">
+    </a>
+    <p align="center">Debug mode enabled: blue lines represent the facing direction where the green balls are heading</p>
+  </div>
