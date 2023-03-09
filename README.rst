@@ -7,7 +7,7 @@ Exploring and implementing steering behaviors (Seek, Arrive, Flee, Avoidance, an
    :depth: 5
    :local:
    :backlinks: top
-
+   
 Fleeing algorithm
 =================
 TODO
@@ -107,3 +107,7 @@ References
 """"""""""
 - Roberts, Paul. `Artificial Intelligence in Games <https://www.amazon.com/Artificial-Intelligence-Games-Paul-Roberts/dp/1032033223/>`_. 
   CRC Press, 2022.
+
+Combining all steering behaviors (TODO)
+=======================================
+TODO
