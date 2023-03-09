@@ -36,9 +36,6 @@ Description
 **Description:**
 
 - The author Paul Roberts implemented the wandering algorithm in C# using the Unity game engine.
-- Wandering is part of many other kinds of steering behaviors (e.g. flocking or evading) and hence has a weigth associated
-  with it (0.25, the lowest value). However, for the sake of this wandering project, I didn't 
-  take into account the other behaviors but I will eventually port them all in JavaScript.
 - The author used zombies invading a shopping mall in search of fresh brains as a backdrop for a simple game where you will
   implement and test different steering behaviors exhibited by the horde of zombies. 
   
@@ -58,6 +55,12 @@ Description
   `:information_source:` 
   
    In the JavaScript port, green balls serve as a substitute for zombies.
+- Wandering is part of many other kinds of **steering behaviors** (e.g. flocking or evading) and hence has a weigth associated
+  with it (0.25, the lowest value). However, for the sake of this wandering project, I didn't 
+  take into account the other behaviors but I will eventually port them all in JavaScript.
+- When the program starts, I give a **random facing direction** to each green "zombie" unlike in the book's C# code where
+  each zombie starts with a default right facing direction (i.e. a ``(1,0)`` vector). Hence, the zombies wander in all kinds of direction 
+  (left, top, right, bottom) instead of collectively wandering toward the right of the screen.
 
 Instructions
 """"""""""""
