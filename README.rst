@@ -10,8 +10,8 @@ Exploring and implementing steering behaviors (Seek, Arrive, Flee, Avoidance, an
 
 Wandering algorithm
 ===================
-JavaScript
-----------
+In JavaScript: a port of Paul Roberts' C# implementation of wandering
+---------------------------------------------------------------------
 .. raw:: html
 
    <div align="center">
@@ -20,3 +20,6 @@ JavaScript
     </a>
     <p align="center">Debug mode enabled: blue lines represent the facing direction where the green balls are heading</p>
   </div>
+
+Description
+"""""""""""
