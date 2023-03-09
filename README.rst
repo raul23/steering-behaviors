@@ -16,7 +16,7 @@ In JavaScript: a port of Paul Roberts' C# implementation of wandering
 
    <div align="center">
     <a href="https://codepen.io/raul23/full/LYJzygm" target="_blank">
-      <img src="./images/wandering_fullscreen.png">
+      <img src="./images/wandering_fullscreen_with_options.png">
     </a>
     <p align="center">Debug mode enabled: blue lines represent the facing direction where the green balls are heading</p>
   </div>
@@ -25,7 +25,7 @@ Description
 """""""""""
 `:information_source:` 
 
- I ported the flocking C# (+ Unity) code from Paul Roberts' book `Artificial Intelligence in Games <https://www.routledge.com/Artificial-Intelligence-in-Games/Roberts/p/book/9781032033228>`_ to JavaScript using the ``phase.js`` 2D game development library.
+ I ported the wandering C# (+ Unity) code from Paul Roberts' book `Artificial Intelligence in Games <https://www.routledge.com/Artificial-Intelligence-in-Games/Roberts/p/book/9781032033228>`_ to JavaScript using the ``phase.js`` 2D game development library.
  
 **JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
 
