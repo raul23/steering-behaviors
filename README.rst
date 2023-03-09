@@ -8,6 +8,10 @@ Exploring and implementing steering behaviors (Seek, Arrive, Flee, Avoidance, an
    :local:
    :backlinks: top
 
+Fleeing algorithm
+=================
+TODO
+
 Wandering algorithm
 ===================
 In JavaScript: a port of Paul Roberts' C# implementation of wandering
