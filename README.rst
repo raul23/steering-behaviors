@@ -58,3 +58,40 @@ Description
   `:information_source:` 
   
    In the JavaScript port, green balls serve as a substitute for zombies.
+
+Instructions
+""""""""""""
+- Click on the bottom right button '*Open options*' to modify some of the important settings:
+
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/LYJzygm" target="_blank">
+         <img src="https://raw.githubusercontent.com/raul23/flocking-algorithms/main/images/open_options.png">
+       </a>
+      </div>
+
+  - **Number of "green zombies"** (i.e. green balls) with 50 as the default
+  - **Wander Radius** with 5 as the default 
+  - **Wander Distance Ahead** with 10 as the default
+  - **Mass** with 1 as the default
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/LYJzygm" target="_blank">
+         <img src="./images/options.png">
+       </a>
+      </div>
+- You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
+- You can press the "D" key to enable debug mode which will draw lines representing the forward direction (i.e. the facing vector) 
+  of each green zombie as blue lines and the wandering direction as green lines. Press the "D" key to disable the debug mode.
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/LYJzygm" target="_blank">
+         <img src="./images/blue_and_green_lines.png">
+       </a>
+      </div>
+      
