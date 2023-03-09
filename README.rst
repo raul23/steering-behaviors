@@ -89,7 +89,7 @@ Instructions
       </div>
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
 - You can press the "D" key to enable debug mode which will draw lines representing the forward direction (i.e. the facing vector) 
-  of each green zombie as blue lines and the wandering direction as green lines. Press the "D" key again to disable the debug mode.
+  of each green zombie as blue lines and the wandering direction and radius as green lines. Press the "D" key again to disable the debug mode.
   
   .. raw:: html
 
