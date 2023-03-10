@@ -7,9 +7,21 @@ Exploring and implementing steering behaviors (Seek, Arrive, Flee, Avoidance, an
    :depth: 5
    :local:
    :backlinks: top
-   
-Fleeing algorithm
-=================
+
+Arriving algorithm (TODO)
+=========================
+TODO
+
+Avoiding algorithm (TODO)
+=========================
+TODO
+
+Fleeing algorithm (TODO)
+========================
+TODO
+
+Seeking algorithm (TODO)
+========================
 TODO
 
 Wandering algorithm
