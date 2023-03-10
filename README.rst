@@ -120,6 +120,6 @@ References
 - Roberts, Paul. `Artificial Intelligence in Games <https://www.amazon.com/Artificial-Intelligence-Games-Paul-Roberts/dp/1032033223/>`_. 
   CRC Press, 2022.
 
-Combining all steering behaviors (TODO)
-=======================================
+Combining all steering behaviors including flocking (TODO)
+==========================================================
 TODO
