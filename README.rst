@@ -12,8 +12,8 @@ Arriving algorithm (TODO)
 =========================
 TODO
 
-Avoiding algorithm (TODO)
-=========================
+Avoidance algorithm (TODO)
+==========================
 .. raw:: html
 
    <div align="center">
@@ -22,6 +22,17 @@ Avoiding algorithm (TODO)
     </a>
     <p align="center">Green balls avoiding obstacles and the red ball</p>
   </div>
+
+Description
+"""""""""""
+`:information_source:` 
+
+ I ported the avoidance C# (+ Unity) code from Paul Roberts' book `Artificial Intelligence in Games <https://www.routledge.com/Artificial-Intelligence-in-Games/Roberts/p/book/9781032033228>`_ to JavaScript using the ``phase.js`` 2D game development library.
+ 
+**JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
+
+- `codepen.io <https://codepen.io/raul23/pen/ExebJPO>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/pen/ExebJPO>`_ (source code)
 
 Fleeing algorithm (TODO)
 ========================
