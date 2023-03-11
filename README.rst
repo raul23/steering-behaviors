@@ -19,10 +19,10 @@ In JavaScript: a port of Paul Roberts' C# implementation of avoidance
 .. raw:: html
 
    <div align="center">
-    <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
+    <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
       <img src="./images/fullscreen_avoiding_red.png">
     </a>
-    <p align="center">Green balls avoiding obstacles and the red ball</p>
+    <p align="center">Green "zombies" avoiding obstacles and the red "zombie"</p>
   </div>
 
 Description
@@ -33,7 +33,7 @@ Description
  
 **JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
 
-- `codepen.io <https://codepen.io/raul23/pen/ExebJPO>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/full/ExebJPO>`_ (fullscreen)
 - `codepen.io <https://codepen.io/raul23/pen/ExebJPO>`_ (source code)
 
 - The author Paul Roberts implemented the avoidance algorithm in C# using the Unity game engine.
@@ -47,7 +47,7 @@ Description
   .. raw:: html
 
       <div align="center">
-       <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
+       <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
          <img src="./images/avoiding_obstacles_path_between.png">
        </a>
        <p align="center">Green "zombies" avoiding obstacles and taking a path between them</p>
@@ -59,11 +59,57 @@ Description
   .. raw:: html
 
       <div align="center">
-       <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
+       <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
          <img src="./images/avoiding_red.png">
        </a>
        <p align="center">Green "zombies" avoiding the red "zombie" that can be controlled by the user</p>
      </div>
+
+Instructions
+""""""""""""
+- Click on the bottom right button '*Open options*' to modify some of the important settings:
+
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
+         <img src="https://raw.githubusercontent.com/raul23/flocking-algorithms/main/images/open_options.png">
+       </a>
+      </div>
+
+  - **Number of "green zombies"** (i.e. green balls) with 50 as the default
+  - **Max speed** with 500 as the default
+  - **Mass** with 1 as the default
+  
+  - **Whisker Max Distance Ahead** with 300 as the default
+  - **Whisker Angle** with 45 as the default 
+  
+  - **Wander Distance Ahead** with 10 as the default
+  - **Wander Radius** with 5 as the default 
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
+         <img src="./images/avoidance_options.png">
+       </a>
+      </div>
+- You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
+- You can press the "D" key to enable debug mode which will draw green lines representing the five whiskers (i.e. the facing vector) 
+  of each green zombie. Press the "D" key again to disable the debug mode.
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
+         <img src="./images/avoidance_whiskers.png">
+       </a>
+      </div>
+      
+References
+""""""""""
+- Roberts, Paul. `Artificial Intelligence in Games <https://www.amazon.com/Artificial-Intelligence-Games-Paul-Roberts/dp/1032033223/>`_. 
+  CRC Press, 2022.
 
 Fleeing algorithm (TODO)
 ========================
@@ -153,8 +199,8 @@ Instructions
        </a>
       </div>
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
-- You can press the "D" key to enable debug mode which will draw lines representing the forward direction (i.e. the facing vector) 
-  of each green zombie as blue lines and the wandering direction and radius as green lines. Press the "D" key again to disable the debug mode.
+- You can press the "D" key to enable debug mode which will draw blue lines representing the forward direction (i.e. the facing vector) 
+  of each green zombie as blue lines and green lines for the wandering direction and radius. Press the "D" key again to disable the debug mode.
   
   .. raw:: html
 
