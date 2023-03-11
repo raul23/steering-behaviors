@@ -12,8 +12,8 @@ Arriving algorithm (TODO)
 =========================
 TODO
 
-Avoidance algorithm (TODO)
-==========================
+Avoidance algorithm
+===================
 .. raw:: html
 
    <div align="center">
@@ -33,6 +33,34 @@ Description
 
 - `codepen.io <https://codepen.io/raul23/pen/ExebJPO>`_ (fullscreen)
 - `codepen.io <https://codepen.io/raul23/pen/ExebJPO>`_ (source code)
+
+- The author Paul Roberts implemented the avoidance algorithm in C# using the Unity game engine.
+- Avoidance is part of many other kinds of **steering behaviors** (e.g. flocking or evading) and hence has a weigth associated
+  with it (0.75, the lowest value). However, for the sake of this avoidance project, I only included the wandering behavior so that
+  the green "zombies" can at least move around the map.
+- I added nine rectangular obstacles by leaving some space between them so that the green "zombies" can take
+  a path between them. 
+  
+  .. raw:: html
+
+   <div align="center">
+    <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
+      <img src="./images/avoiding_obstacles_path_between.png">
+    </a>
+    <p align="center">Green "zombies" avoiding obstacles and taking a path between them</p>
+  </div>
+  
+  Also a red "zombie" that can be controlled by the user via the arrow keys is considered by the green "zombies" as an extra obstacle 
+  to be avoided.
+  
+  .. raw:: html
+
+   <div align="center">
+    <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
+      <img src="./images/avoiding_red.png">
+    </a>
+    <p align="center">Green "zombies" avoiding the red "zombie" that can be controlled by the user</p>
+  </div>
 
 Fleeing algorithm (TODO)
 ========================
@@ -91,7 +119,7 @@ Description
    In the JavaScript port, green balls serve as a substitute for zombies.
 - Wandering is part of many other kinds of **steering behaviors** (e.g. flocking or evading) and hence has a weigth associated
   with it (0.25, the lowest value). However, for the sake of this wandering project, I didn't 
-  take into account the other behaviors but I will eventually port them all in JavaScript.
+  take into account the other behaviors.
 - When the program starts, I give a **random facing direction** to each green "zombie" unlike in the book's C# code where
   each zombie starts with a default right facing direction (i.e. a ``(1,0)`` vector). Hence, the zombies wander in all kinds of direction 
   (left, top, right, bottom) instead of collectively wandering toward the right of the screen.
