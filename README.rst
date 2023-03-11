@@ -37,9 +37,6 @@ Description
   with it (0.5). However, for the sake of this arriving project, I didn't inclue the other behaviors.
 - The user can control a red "zombie" (.i.e. ball) with the arrow keys and can move it anywhere around the
   canvas so that the other green "zombies" can use it as a target to follow and destination.
-
-I added nine rectangular obstacles and left enough some space between them so that the green "zombies" can take
-  a path between them. 
   
   .. raw:: html
 
