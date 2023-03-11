@@ -10,8 +10,8 @@ Exploring and implementing steering behaviors (Seek, Arrive, Flee, Avoidance, an
 
 Arrive algorithm
 ================
-In JavaScript: a port of Paul Roberts' C# implementation of arriving
---------------------------------------------------------------------
+In JavaScript: a port of Paul Roberts' C# implementation of arrive
+------------------------------------------------------------------
 .. raw:: html
 
    <div align="center">
@@ -183,7 +183,16 @@ TODO
 
 Seeking algorithm (TODO)
 ========================
-TODO
+In JavaScript: a port of Paul Roberts' C# implementation of seeking
+-------------------------------------------------------------------
+.. raw:: html
+
+   <div align="center">
+    <a href="https://codepen.io/raul23/full/zYJPeqx" target="_blank">
+      <img src="./images/seeking_fullscreen_with_options.png">
+    </a>
+    <p align="center">The green "zombies" are seeking the user-controlled red "zombie"</p>
+  </div>
 
 Wandering algorithm
 ===================
