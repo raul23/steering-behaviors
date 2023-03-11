@@ -73,17 +73,6 @@ Instructions
        </a>
       </div>
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
-- You can press the "D" key to enable debug mode which will draw green lines representing the five whiskers 
-  of each green zombie. Press the "D" key again to disable the debug mode.
-  
-  .. raw:: html
-
-      <div align="center">
-       <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
-         <img src="./images/avoidance_whiskers.png">
-       </a>
-       <p align="center">Debug mode enabled: green lines represent the whiskers helping the green "zombies" avoid obstacles</p>
-      </div>
       
 References
 """"""""""
