@@ -48,6 +48,48 @@ Description
        that is completely covered by them</p>
      </div>
 
+Instructions
+""""""""""""
+- Click on the bottom right button '*Open options*' to modify some of the important settings:
+
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
+         <img src="https://raw.githubusercontent.com/raul23/flocking-algorithms/main/images/open_options.png">
+       </a>
+      </div>
+
+  - **Number of "green zombies"** (i.e. green balls) with 50 as the default
+  - **Max speed** with 15 as the default
+  - **Mass** with 1 as the default
+  - **Deceleration** with 0.1 as the default
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
+         <img src="./images/arriving_options.png">
+       </a>
+      </div>
+- You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
+- You can press the "D" key to enable debug mode which will draw green lines representing the five whiskers 
+  of each green zombie. Press the "D" key again to disable the debug mode.
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
+         <img src="./images/avoidance_whiskers.png">
+       </a>
+       <p align="center">Debug mode enabled: green lines represent the whiskers helping the green "zombies" avoid obstacles</p>
+      </div>
+      
+References
+""""""""""
+- Roberts, Paul. `Artificial Intelligence in Games <https://www.amazon.com/Artificial-Intelligence-Games-Paul-Roberts/dp/1032033223/>`_. 
+  CRC Press, 2022.
+
 Avoidance algorithm
 ===================
 In JavaScript: a port of Paul Roberts' C# implementation of avoidance
