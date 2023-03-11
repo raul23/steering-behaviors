@@ -43,24 +43,24 @@ Description
   
   .. raw:: html
 
-   <div align="center">
-    <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
-      <img src="./images/avoiding_obstacles_path_between.png">
-    </a>
-    <p align="center">Green "zombies" avoiding obstacles and taking a path between them</p>
-  </div>
+      <div align="center">
+       <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
+         <img src="./images/avoiding_obstacles_path_between.png">
+       </a>
+       <p align="center">Green "zombies" avoiding obstacles and taking a path between them</p>
+     </div>
   
   Also a red "zombie" that can be controlled by the user via the arrow keys is considered by the green "zombies" as an extra obstacle 
   to be avoided.
   
   .. raw:: html
 
-   <div align="center">
-    <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
-      <img src="./images/avoiding_red.png">
-    </a>
-    <p align="center">Green "zombies" avoiding the red "zombie" that can be controlled by the user</p>
-  </div>
+      <div align="center">
+       <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
+         <img src="./images/avoiding_red.png">
+       </a>
+       <p align="center">Green "zombies" avoiding the red "zombie" that can be controlled by the user</p>
+     </div>
 
 Fleeing algorithm (TODO)
 ========================
