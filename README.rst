@@ -8,9 +8,48 @@ Exploring and implementing steering behaviors (Seek, Arrive, Flee, Avoidance, an
    :local:
    :backlinks: top
 
-Arriving algorithm (TODO)
-=========================
-TODO
+Arriving algorithm
+==================
+In JavaScript: a port of Paul Roberts' C# implementation of arriving
+--------------------------------------------------------------------
+.. raw:: html
+
+   <div align="center">
+    <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
+      <img src="./images/arriving.png">
+    </a>
+    <p align="center">Green "zombies" arriving at their destination which is the red "zombie"</p>
+  </div>
+
+Description
+"""""""""""
+`:information_source:` 
+
+ I ported the arriving C# (+ Unity) code from Paul Roberts' book `Artificial Intelligence in Games <https://www.routledge.com/Artificial-Intelligence-in-Games/Roberts/p/book/9781032033228>`_ to JavaScript using the ``phase.js`` 2D game development library.
+ 
+**JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
+
+- `codepen.io <https://codepen.io/raul23/full/bGxYZod>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/pen/bGxYZod>`_ (source code)
+
+- The author Paul Roberts implemented the arriving algorithm in C# using the Unity game engine.
+- Arriving is part of many other kinds of **steering behaviors** (e.g. flocking or evading) and hence has a weigth associated
+  with it (0.5). However, for the sake of this arriving project, I didn't inclue the other behaviors.
+- The user can control a red "zombie" (.i.e. ball) with the arrow keys and can move it anywhere around the
+  canvas so that the other green "zombies" can use it as a target to follow and destination.
+
+I added nine rectangular obstacles and left enough some space between them so that the green "zombies" can take
+  a path between them. 
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
+         <img src="./images/avoiding_covered_red.png">
+       </a>
+       <p align="center">The green "zombies" finally arrived at destination which is the user-controlled red "zombie" 
+       that is completely convered by them</p>
+     </div>
 
 Avoidance algorithm
 ===================
