@@ -38,14 +38,17 @@ Description
 - The user can control a red "zombie" (.i.e. ball) with the arrow keys and can move it anywhere around the
   canvas so that the other green "zombies" can use it as a target to follow and destination.
   
+  Eventually they will cease all movement once they reach an
+  equilibrium state <br/>where all green "zombies" will all be piled on top of each other.
+  
   .. raw:: html
 
       <div align="center">
        <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
          <img src="./images/avoiding_covered_red.png">
        </a>
-       <p align="center">The green "zombies" finally arrived at destination which is the <br/>user-controlled red "zombie" 
-       that is completely covered by them</p>
+       <p align="center">The green "zombies" arrived at destination which is the <br/>user-controlled red "zombie" 
+       that is completely covered by them.
      </div>
 - Unlike the `seeking algorithm <#in-javascript-a-port-of-paul-roberts-c-implementation-of-seeking>`_, 
   the arrive implementation aims for the green "zombies" to gradually decelerate and  
@@ -60,7 +63,7 @@ Description
        <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
          <img src="./images/arriving_final_destination.png">
        </a>
-       <p align="center">Equilibrium state: the green "zombies" finally arrived at destination</p>
+       <p align="center">Equilibrium state: the green "zombies" **finally** arrived at destination</p>
      </div>
 
 Instructions
