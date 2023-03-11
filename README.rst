@@ -107,7 +107,7 @@ In JavaScript: a port of Paul Roberts' C# implementation of avoidance
     <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
       <img src="./images/fullscreen_avoiding_red.png">
     </a>
-    <p align="center">Green "zombies" avoiding obstacles and the red "zombie"</p>
+    <p align="center">Green "zombies" avoiding obstacles (including the red "zombie")</p>
   </div>
 
 Description
