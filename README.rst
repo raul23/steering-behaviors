@@ -47,7 +47,7 @@ I added nine rectangular obstacles and left enough some space between them so th
        <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
          <img src="./images/avoiding_covered_red.png">
        </a>
-       <p align="center">The green "zombies" finally arrived at destination which is the user-controlled red "zombie" 
+       <p align="center">The green "zombies" finally arrived at destination which is the <br/>user-controlled red "zombie" 
        that is completely convered by them</p>
      </div>
 
