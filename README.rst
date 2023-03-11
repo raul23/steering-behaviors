@@ -209,8 +209,8 @@ Instructions
        <a href="https://codepen.io/raul23/full/LYJzygm" target="_blank">
          <img src="./images/blue_and_green_lines.png">
        </a>
-       <p align="center">Debug mode enabled: blue lines represent the facing direction and green 
-       lines correspond to the wandering direction and radius</p>
+       <p align="center"><b>Debug mode enabled:</b><br/> blue lines represent the facing direction and <br/> 
+       green lines correspond to the wandering direction and radius</p>
       </div>
       
 References
