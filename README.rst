@@ -61,8 +61,8 @@ Instructions
       </div>
 
   - **Number of "green zombies"** (i.e. green balls) with 50 as the default
-  - **Max speed** with 500 as the default
   - **Mass** with 1 as the default
+  - **Max speed** with 500 as the default
   - **Deceleration** with 0.1 as the default
   
   .. raw:: html
