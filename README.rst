@@ -14,7 +14,14 @@ TODO
 
 Avoiding algorithm (TODO)
 =========================
-TODO
+.. raw:: html
+
+   <div align="center">
+    <a href="https://codepen.io/raul23/pen/ExebJPO" target="_blank">
+      <img src="./images/fullscreen_avoiding_red.png">
+    </a>
+    <p align="center">Green balls avoiding obstacles and the red ball</p>
+  </div>
 
 Fleeing algorithm (TODO)
 ========================
