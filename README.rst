@@ -95,7 +95,7 @@ Instructions
        </a>
       </div>
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
-- You can press the "D" key to enable debug mode which will draw green lines representing the five whiskers (i.e. the facing vector) 
+- You can press the "D" key to enable debug mode which will draw green lines representing the five whiskers 
   of each green zombie. Press the "D" key again to disable the debug mode.
   
   .. raw:: html
@@ -104,6 +104,7 @@ Instructions
        <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
          <img src="./images/avoidance_whiskers.png">
        </a>
+       <p align="center">Debug mode enabled: green lines represent the five whiskers helping the green "zombies" avoid obstacles</p>
       </div>
       
 References
@@ -199,7 +200,7 @@ Instructions
        </a>
       </div>
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
-- You can press the "D" key to enable debug mode which will draw blue lines representing the forward direction (i.e. the facing vector) 
+- You can press the "D" key to enable debug mode which will draw a blue line representing the forward direction (i.e. the facing vector) 
   of each green zombie as blue lines and green lines for the wandering direction and radius. Press the "D" key again to disable the debug mode.
   
   .. raw:: html
@@ -208,6 +209,8 @@ Instructions
        <a href="https://codepen.io/raul23/full/LYJzygm" target="_blank">
          <img src="./images/blue_and_green_lines.png">
        </a>
+       <p align="center">Debug mode enabled: blue lines represent the facing direction and green 
+       lines correspond to the wandering direction and radius</p>
       </div>
       
 References
