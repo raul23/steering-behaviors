@@ -63,7 +63,7 @@ Description
        <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
          <img src="./images/arriving_final_destination.png">
        </a>
-       <p align="center">Equilibrium state: the green "zombies" **finally** arrived at destination</p>
+       <p align="center">Equilibrium state: the green "zombies" <br>finally</b> arrived at destination</p>
      </div>
 
 Instructions
