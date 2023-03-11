@@ -24,7 +24,7 @@ Avoidance algorithm (TODO)
   </div>
 
 Description
-"""""""""""
+-----------
 `:information_source:` 
 
  I ported the avoidance C# (+ Unity) code from Paul Roberts' book `Artificial Intelligence in Games <https://www.routledge.com/Artificial-Intelligence-in-Games/Roberts/p/book/9781032033228>`_ to JavaScript using the ``phase.js`` 2D game development library.
