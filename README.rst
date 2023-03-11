@@ -45,7 +45,7 @@ Description
          <img src="./images/avoiding_covered_red.png">
        </a>
        <p align="center">The green "zombies" finally arrived at destination which is the <br/>user-controlled red "zombie" 
-       that is completely convered by them</p>
+       that is completely covered by them</p>
      </div>
 
 Avoidance algorithm
