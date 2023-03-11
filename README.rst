@@ -184,7 +184,7 @@ Instructions
        <a href="https://codepen.io/raul23/full/ExebJPO" target="_blank">
          <img src="./images/avoidance_whiskers.png">
        </a>
-       <p align="center">Debug mode enabled: green lines represent the whiskers helping the green "zombies" avoid obstacles</p>
+       <p align="center">Debug mode enabled: green lines represent the whiskers helping the green "zombies" to avoid obstacles</p>
       </div>
       
 References
