@@ -41,7 +41,7 @@ Description
   with it (0.75). However, for the sake of this avoidance project, I only included the 
   `wandering behavior <#in-javascript-a-port-of-paul-roberts-c-implementation-of-wandering>`_ so that
   the green "zombies" can at least move around the map.
-- I added nine rectangular obstacles by leaving some space between them so that the green "zombies" can take
+- I added nine rectangular obstacles and left enough some space between them so that the green "zombies" can take
   a path between them. 
   
   .. raw:: html
