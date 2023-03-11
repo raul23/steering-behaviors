@@ -78,12 +78,10 @@ Instructions
       </div>
 
   - **Number of "green zombies"** (i.e. green balls) with 50 as the default
-  - **Max speed** with 500 as the default
+  - **Max speed** with 15 as the default
   - **Mass** with 1 as the default
-  
   - **Whisker Max Distance Ahead** with 300 as the default
   - **Whisker Angle** with 45 as the default 
-  
   - **Wander Distance Ahead** with 10 as the default
   - **Wander Radius** with 5 as the default 
   
