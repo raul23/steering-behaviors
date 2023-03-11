@@ -55,7 +55,7 @@ Description
   finally cease any movement once they arrive at destination which is the red "zombie".
   
   In the seeking algorithm, the green "zombies" are not able to completely stop at their target location
-  and continually do a back and forth movement with the target.
+  and continually do a back and forth with the target.
   
   .. raw:: html
 
