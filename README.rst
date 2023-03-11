@@ -39,7 +39,7 @@ Description
   canvas so that the other green "zombies" can use it as a target to follow and destination.
   
   Eventually they will cease all movement once they reach an
-  equilibrium state <br/>where all green "zombies" will all be piled on top of each other.
+  equilibrium state where all green "zombies" will be piled on top of each other.
   
   .. raw:: html
 
