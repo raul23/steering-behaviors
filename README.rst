@@ -47,6 +47,21 @@ Description
        <p align="center">The green "zombies" finally arrived at destination which is the <br/>user-controlled red "zombie" 
        that is completely covered by them</p>
      </div>
+- Unlike the `seeking algorithm <#in-javascript-a-port-of-paul-roberts-c-implementation-of-seeking>`_, 
+  the arrive implementation aims for the green "zombies" to gradually decelerate and  
+  finally cease any movement once they arrive at destination which is the red "zombie".
+  
+  In the seeking algorithm, the green "zombies" are not able to completely stop at their target location
+  and continually do a back and forth movement with the target.
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/bGxYZod" target="_blank">
+         <img src="./images/arriving_final_destination.png">
+       </a>
+       <p align="center">Equilibrium state: the green "zombies" finally arrived at destination</p>
+     </div>
 
 Instructions
 """"""""""""
