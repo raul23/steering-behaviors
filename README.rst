@@ -199,8 +199,8 @@ Fleeing algorithm (TODO)
 ========================
 TODO
 
-Seeking algorithm (TODO)
-========================
+Seeking algorithm
+=================
 In JavaScript: a port of Paul Roberts' C# implementation of seeking
 -------------------------------------------------------------------
 .. raw:: html
