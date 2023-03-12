@@ -87,7 +87,7 @@ Description
 - The user can control a red "zombie" (.i.e. ball) with the arrow keys and can move it anywhere around the
   canvas so that the other green "zombies" can use it as a target to avoid or follow.
   
-  In the case of the `avoidance behavior <#in-javascript-a-port-of-paul-roberts-c-implementation-of-all-steering-behaviors>`_, 
+  In the case of the `avoidance behavior <#in-javascript-a-port-of-paul-roberts-c-implementation-of-arrive>`_, 
   eventually they will cease all movement once they reach an
   equilibrium state where all green "zombies" will be piled on top of each other.
   
