@@ -56,11 +56,86 @@ In JavaScript: a port of Paul Roberts' C# implementation of all steering behavio
 .. raw:: html
 
    <div align="center">
-    <a href="https://codepen.io/raul23/pen/KKxQKzK" target="_blank">
+    <a href="https://codepen.io/raul23/full/KKxQKzK" target="_blank">
       <img src="./images/combining_fullscreen_with_options.png">
     </a>
     <p align="center">Green "zombies" wandering, flocking and avoiding obstacles including the user-controlled red "zombie"</p>
   </div>
+
+Description
+"""""""""""
+`:information_source:` 
+
+ I ported the steering behaviors implemented in C# (+ Unity) code from Paul Roberts' 
+ book `Artificial Intelligence in Games <https://www.routledge.com/Artificial-Intelligence-in-Games/Roberts/p/book/9781032033228>`_ to 
+ JavaScript using the ``phase.js`` 2D game development library.
+ 
+**JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
+
+- `codepen.io <https://codepen.io/raul23/full/KKxQKzK>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/pen/KKxQKzK>`_ (source code)
+
+- The author Paul Roberts implemented the steering behaviors in C# using the Unity game engine.
+- Each steering behavior has as an associated weight. These are the default values:
+
+  - Arrive weight: 0.5
+  - Avoidance weight: 0.75
+  - Flee weight: 0.5
+  - Flocking weight: 0.25
+  - Seek weight: 0.5
+  - Wander weight: 0.25
+- The user can control a red "zombie" (.i.e. ball) with the arrow keys and can move it anywhere around the
+  canvas so that the other green "zombies" can use it as a target to avoid or follow.
+  
+  In the case of the `avoidance behavior <#in-javascript-a-port-of-paul-roberts-c-implementation-of-all-steering-behaviors>`_, 
+  eventually they will cease all movement once they reach an
+  equilibrium state where all green "zombies" will be piled on top of each other.
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/KKxQKzK" target="_blank">
+         <img src="./images/avoiding_covered_red.png">
+       </a>
+       <p align="center">The green "zombies" arrived at destination which is the <br/>user-controlled red "zombie" 
+       that is completely covered by them.
+     </div>
+
+Instructions
+""""""""""""
+- Click on the bottom right button '*Open options*' to modify some of the important settings:
+
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/KKxQKzK" target="_blank">
+         <img src="https://raw.githubusercontent.com/raul23/flocking-algorithms/main/images/open_options.png">
+       </a>
+      </div>
+
+  - **Number of "green zombies"** (i.e. green balls) with 50 as the default
+  - **Max speed** with 500 as the default
+  - **Deceleration** with 0.1 as the default
+  - **Mass** with 1 as the default
+  - **Whisker Max Distance Ahead** with 300 as the default
+  - **Whisker Angle** with 45 as the default 
+  - **Wander Distance Ahead** with 10 as the default
+  - **Wander Radius** with 5 as the default 
+  - **Flocking Distance** with 100 as the default 
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/KKxQKzK" target="_blank">
+         <img src="./images/combining_options.png">
+       </a>
+      </div>
+- You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
+      
+References
+""""""""""
+- Roberts, Paul. `Artificial Intelligence in Games <https://www.amazon.com/Artificial-Intelligence-Games-Paul-Roberts/dp/1032033223/>`_. 
+  CRC Press, 2022.
 
 Arrive algorithm
 ================
