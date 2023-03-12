@@ -61,7 +61,7 @@ In JavaScript: a port of Paul Roberts' C# implementation of all steering behavio
 
    <div align="center">
     <a href="https://codepen.io/raul23/full/KKxQKzK" target="_blank">
-      <img src="./images/combining_fullscreen_with_options2.png">
+      <img src="./images/combining_fullscreen_options2.png">
     </a>
     <p align="center">Green "zombies" wandering, flocking and avoiding obstacles including the user-controlled red "zombie"</p>
   </div>
@@ -128,7 +128,7 @@ Instructions
   - **Wander Radius** with 5 as the default 
   - **Flocking Distance** with 100 as the default 
   
-  Also you can specify which steering behaviors to enable/disable by toggling the corresponding flags along with their weights.
+  Also you can specify which steering behaviors to enable/disable by toggling the corresponding flags along with their weights (from 0 to 1).
   
   .. raw:: html
 
