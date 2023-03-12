@@ -76,7 +76,7 @@ Description
 - `codepen.io <https://codepen.io/raul23/pen/KKxQKzK>`_ (source code)
 
 - The author Paul Roberts implemented the steering behaviors in C# using the Unity game engine.
-- Each steering behavior has as an associated weight. These are the default values:
+- Each steering behavior has an associated weight. These are the default values:
 
   - Arrive weight: 0.5
   - Avoidance weight: 0.75
