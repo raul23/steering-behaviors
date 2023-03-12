@@ -310,6 +310,16 @@ Instructions
   the other green "zombies" will start moving toward it without settling for a final standstill. Unlike in the case of the 
   `arrive algorithm <#arrive-algorithm>`_, the green "zombies" will seek the red "zombie" and if their target doesn't
   move at all, they will continue to do a back and forth with the red "zombie".
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/zYJPeqx" target="_blank">
+         <img src="./images/seeking_gravitate.png">
+       </a>
+       <p align="center">Once the green "zombies" get to their target (the red "zombie"), 
+       <br/>they will gravitate around it, never settling for a standstill as is the case with the arrive algorithm</p>
+      </div>
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
       
 References
