@@ -48,7 +48,20 @@ Introduction
           </a>
           <p align="center">Green "zombies" avoiding the red "zombie" that can be controlled by the user</p>
          </div>
-     
+
+Combining all steering behaviors including flocking ⭐
+======================================================
+In JavaScript: a port of Paul Roberts' C# implementation of all steering behaviors
+----------------------------------------------------------------------------------
+.. raw:: html
+
+   <div align="center">
+    <a href="https://codepen.io/raul23/pen/KKxQKzK" target="_blank">
+      <img src="./images/combining_fullscreen_with_options.png">
+    </a>
+    <p align="center">Green "zombies" wandering, flocking and avoiding obstacles including the user-controlled red "zombie"</p>
+  </div>
+
 Arrive algorithm
 ================
 In JavaScript: a port of Paul Roberts' C# implementation of arrive
@@ -445,16 +458,3 @@ References
 """"""""""
 - Roberts, Paul. `Artificial Intelligence in Games <https://www.amazon.com/Artificial-Intelligence-Games-Paul-Roberts/dp/1032033223/>`_. 
   CRC Press, 2022.
-
-Combining all steering behaviors including flocking ⭐
-======================================================
-In JavaScript: a port of Paul Roberts' C# implementation of all steering behaviors
-----------------------------------------------------------------------------------
-.. raw:: html
-
-   <div align="center">
-    <a href="https://codepen.io/raul23/pen/KKxQKzK" target="_blank">
-      <img src="./images/combining_fullscreen_with_options.png">
-    </a>
-    <p align="center">Green "zombies" wandering, flocking and avoiding obstacles including the user-controlled red "zombie"</p>
-  </div>
