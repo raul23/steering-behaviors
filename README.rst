@@ -3,6 +3,10 @@ Steering behaviors
 ==================
 Exploring and implementing steering behaviors (Seek, Arrive, Flee, Avoidance, and Wander) algorithms as applied to video games
 
+`:information_source:` 
+
+ I implemented flocking separately, check `Flocking algorithms <https://github.com/raul23/group-behaviors-algorithms>`_
+
 .. contents:: **Contents**
    :depth: 5
    :local:
