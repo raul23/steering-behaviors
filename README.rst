@@ -74,6 +74,7 @@ Description
 
 - `codepen.io <https://codepen.io/raul23/full/KKxQKzK>`_ (fullscreen)
 - `codepen.io <https://codepen.io/raul23/pen/KKxQKzK>`_ (source code)
+- `github.com <./code/combining/>`_ (source code)
 
 - The author Paul Roberts implemented the steering behaviors in C# using the Unity game engine.
 - Each steering behavior has an associated weight. These are the default values:
