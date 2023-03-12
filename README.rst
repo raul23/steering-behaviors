@@ -61,7 +61,7 @@ In JavaScript: a port of Paul Roberts' C# implementation of all steering behavio
 
    <div align="center">
     <a href="https://codepen.io/raul23/full/KKxQKzK" target="_blank">
-      <img src="./images/combining_fullscreen_with_options.png">
+      <img src="./images/combining_fullscreen_with_options2.png">
     </a>
     <p align="center">Green "zombies" wandering, flocking and avoiding obstacles including the user-controlled red "zombie"</p>
   </div>
@@ -128,13 +128,13 @@ Instructions
   - **Wander Radius** with 5 as the default 
   - **Flocking Distance** with 100 as the default 
   
-  Also you can specify which steering behaviors to enable/disable by toggling the corresponding flags.
+  Also you can specify which steering behaviors to enable/disable by toggling the corresponding flags along with their weights.
   
   .. raw:: html
 
       <div align="center">
        <a href="https://codepen.io/raul23/full/KKxQKzK" target="_blank">
-         <img src="./images/combining_options.png">
+         <img src="./images/combining_options3.png">
        </a>
       </div>
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
