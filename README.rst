@@ -195,9 +195,18 @@ References
 - Roberts, Paul. `Artificial Intelligence in Games <https://www.amazon.com/Artificial-Intelligence-Games-Paul-Roberts/dp/1032033223/>`_. 
   CRC Press, 2022.
 
-Fleeing algorithm (TODO)
-========================
-TODO
+Fleeing algorithm
+=================
+In JavaScript: a port of Paul Roberts' C# implementation of fleeing
+-------------------------------------------------------------------
+.. raw:: html
+
+   <div align="center">
+    <a href="https://codepen.io/raul23/full/zYJPeqx" target="_blank">
+      <img src="./images/fleeing_fullscreen_with_options.png">
+    </a>
+    <p align="center">The green "zombies" are all fleeing from the user-controlled red "zombie"</p>
+  </div>
 
 Seeking algorithm
 =================
