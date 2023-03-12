@@ -212,6 +212,51 @@ In JavaScript: a port of Paul Roberts' C# implementation of seeking
     <p align="center">The green "zombies" are seeking the user-controlled red "zombie"</p>
   </div>
 
+Description
+"""""""""""
+`:information_source:` 
+
+ I ported the seeking C# (+ Unity) code from Paul Roberts' book `Artificial Intelligence in Games <https://www.routledge.com/Artificial-Intelligence-in-Games/Roberts/p/book/9781032033228>`_ to JavaScript using the ``phase.js`` 2D game development library.
+ 
+**JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
+
+- `codepen.io <https://codepen.io/raul23/full/zYJPeqx>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/pen/zYJPeqx>`_ (source code)
+
+- The author Paul Roberts implemented the seeking algorithm in C# using the Unity game engine.
+- Seeking is part of many other kinds of **steering behaviors** (e.g. flocking or evading) and hence has a weigth associated
+  with it (0.5). However, for the sake of this seeking project, I didn't take into account the other behaviors.
+
+Instructions
+""""""""""""
+- Click on the bottom right button '*Open options*' to modify some of the important settings:
+
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/zYJPeqx" target="_blank">
+         <img src="https://raw.githubusercontent.com/raul23/flocking-algorithms/main/images/open_options.png">
+       </a>
+      </div>
+
+  - **Number of "green zombies"** (i.e. green balls) with 50 as the default
+  - **Max speed** with 500 as the default
+  - **Mass** with 1 as the default
+  
+  .. raw:: html
+
+      <div align="center">
+       <a href="https://codepen.io/raul23/full/zYJPeqx" target="_blank">
+         <img src="./images/seeking_options.png">
+       </a>
+      </div>
+- You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
+      
+References
+""""""""""
+- Roberts, Paul. `Artificial Intelligence in Games <https://www.amazon.com/Artificial-Intelligence-Games-Paul-Roberts/dp/1032033223/>`_. 
+  CRC Press, 2022.
+
 Wandering algorithm
 ===================
 In JavaScript: a port of Paul Roberts' C# implementation of wandering
@@ -235,7 +280,6 @@ Description
 
 - `codepen.io <https://codepen.io/raul23/full/LYJzygm>`_ (fullscreen)
 - `codepen.io <https://codepen.io/raul23/pen/LYJzygm>`_ (source code)
-
 
 **Description:**
 
