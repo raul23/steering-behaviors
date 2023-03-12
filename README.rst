@@ -123,6 +123,8 @@ Instructions
   - **Wander Radius** with 5 as the default 
   - **Flocking Distance** with 100 as the default 
   
+  Also you can specify which steering behaviors to enable/disable by toggling the corresponding flags.
+  
   .. raw:: html
 
       <div align="center">
