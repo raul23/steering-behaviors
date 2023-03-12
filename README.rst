@@ -246,6 +246,8 @@ Instructions
          <img src="./images/seeking_options.png">
        </a>
       </div>
+- A red "zombie" can be controlled by the user via the arrow keys. Hence, the user can move it anywhere on the canvas and 
+  the other green "zombies" will start fleeing from it.
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
       
 References
@@ -304,6 +306,10 @@ Instructions
          <img src="./images/seeking_options.png">
        </a>
       </div>
+- A red "zombie" can be controlled by the user via the arrow keys. Hence, the user can move it anywhere on the canvas and 
+  the other green "zombies" will start moving toward it without settling for a final standstill. Unlike in the case of the 
+  `arrive algorithm <#arrive-algorithm>`_, the green "zombies" will seek the red "zombie" and if their target doesn't
+  move at all, they will continue to do a back and forth with the red "zombie".
 - You can **pause** the program by clicking anywhere on the canvas. Then to resume the animations, just click again on the canvas.
       
 References
