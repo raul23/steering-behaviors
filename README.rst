@@ -76,7 +76,7 @@ Description
  
 **JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
 
-- `codepen.io <https://codepen.io/raul23/full/KKxQKzK>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/full/KKxQKzK>`_ (fullscreen; **Test it live!**)
 - `codepen.io <https://codepen.io/raul23/pen/KKxQKzK>`_ (source code)
 - `github.com <./code/combining/>`_ (source code)
 
@@ -165,7 +165,7 @@ Description
  
 **JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
 
-- `codepen.io <https://codepen.io/raul23/full/bGxYZod>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/full/bGxYZod>`_ (fullscreen; **Test it live!**)
 - `codepen.io <https://codepen.io/raul23/pen/bGxYZod>`_ (source code)
 
 - The author Paul Roberts implemented the arrive algorithm in C# using the Unity game engine.
@@ -254,7 +254,7 @@ Description
  
 **JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
 
-- `codepen.io <https://codepen.io/raul23/full/ExebJPO>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/full/ExebJPO>`_ (fullscreen; **Test it live!**)
 - `codepen.io <https://codepen.io/raul23/pen/ExebJPO>`_ (source code)
 
 - The author Paul Roberts implemented the avoidance algorithm in C# using the Unity game engine.
@@ -352,7 +352,7 @@ Description
  
 **JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
 
-- `codepen.io <https://codepen.io/raul23/full/GRXOdLv>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/full/GRXOdLv>`_ (fullscreen; **Test it live!**)
 - `codepen.io <https://codepen.io/raul23/pen/GRXOdLv>`_ (source code)
 
 - The author Paul Roberts implemented the fleeing algorithm in C# using the Unity game engine.
@@ -412,7 +412,7 @@ Description
  
 **JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
 
-- `codepen.io <https://codepen.io/raul23/full/zYJPeqx>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/full/zYJPeqx>`_ (fullscreen; **Test it live!**)
 - `codepen.io <https://codepen.io/raul23/pen/zYJPeqx>`_ (source code)
 
 - The author Paul Roberts implemented the seeking algorithm in C# using the Unity game engine.
@@ -484,7 +484,7 @@ Description
  
 **JavaScript port:** you can run the JavaScript code (which uses ``phaser.js``) through your browser via codepen.io
 
-- `codepen.io <https://codepen.io/raul23/full/LYJzygm>`_ (fullscreen)
+- `codepen.io <https://codepen.io/raul23/full/LYJzygm>`_ (fullscreen; **Test it live!**)
 - `codepen.io <https://codepen.io/raul23/pen/LYJzygm>`_ (source code)
 
 **Description:**
